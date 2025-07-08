@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from bson import ObjectId
 
-client= MongoClient("mongodb+srv://youtubepy:youtubepy1414@cluster0.m3ukl.mongodb.net/")
+client= MongoClient("")
 
 db=client["ytmanager"]
 video_collection=db["videos"]
